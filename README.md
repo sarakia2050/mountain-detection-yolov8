@@ -24,7 +24,19 @@ This helped me understand the full object detection workflow:
 - PyTorch
 - Conda
 - PowerShell
+---------
+(##%%%%%%%%%%%% Tools Used
 
+- **Python**: Main runtime environment for Ultralytics YOLO and PyTorch.
+- **YOLOv8**: Object detection model used for mountain detection.
+- **Ultralytics**: Used to train and run YOLOv8 through the command-line interface.
+- **CVAT**: Used for manually labeling the first small mountain dataset with bounding boxes.
+- **Roboflow Universe**: Used to download a larger annotated mountain dataset in YOLOv8 format.
+- **PyTorch**: Deep learning backend used internally by Ultralytics YOLO.
+- **Conda**: Used to manage the dedicated `yolo-cv` environment.
+- **PowerShell**: Used to run training, prediction, and troubleshooting commands on Windows.
+
+##%%%%%%%%%%%%%)
 ---
 
 ## Project Workflow
